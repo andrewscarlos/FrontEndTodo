@@ -10,7 +10,7 @@ import iconSport from '../assets/sport.png'
 
 
 const typeIcons= [
-    null,
+   
     iconDefault,
     iconFootball,
     iconFood,

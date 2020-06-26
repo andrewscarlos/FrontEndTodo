@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const api = axios.create({
-    baseURL:'http://localhost:3001'
+    baseURL:'https://damp-brushlands-24483.herokuapp.com'
 });
 
 export default api;

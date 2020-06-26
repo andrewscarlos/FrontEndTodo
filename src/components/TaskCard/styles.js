@@ -14,6 +14,8 @@ export const Container = styled.div`
       margin: 20px;
       cursor: pointer;
       transition: all 0.3s ease;
+      opacity: ${props => props.done ? 0.5 : 1 } ;
+
       &:hover{
             opacity: 0.5;
       }
@@ -25,6 +27,9 @@ export const TopCard = styled.div`
       align-items: center;
       justify-content: center; 
       flex-direction: column; 
+      p{
+            font-weight: bold;
+      }
 
 
 
